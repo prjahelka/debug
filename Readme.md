@@ -15,7 +15,7 @@ $ npm install debug
 Example _app.js_:
 
 ```js
-var debug = require('debug')('http')
+var debug = require('debug')
   , http = require('http')
   , name = 'My App';
 
